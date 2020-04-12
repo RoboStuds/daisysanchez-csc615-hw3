@@ -1,8 +1,6 @@
-
-
-#include <studio.h>
+#include <stdio.h>
 #include <stdlib.h>
-#include <wiringPi.h> 
+#include <wiringPi.h>
 
 int main (void){
 
@@ -15,6 +13,7 @@ pinMode(13, OUTPUT);
 pinMode(15, OUTPUT);
 pinMode(16, OUTPUT);
 pinMode(18, OUTPUT);
+
 
 int var = 0;
   
