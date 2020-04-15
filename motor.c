@@ -36,13 +36,13 @@ digitalWrite(2, HIGH);
 digitalWrite(3, LOW);
 
 //Motor 2 forward 
-digitalWrite(6, HIGH)
+digitalWrite(6, HIGH);
 digitalWrite(4, HIGH);
 digitalWrite(5, LOW);
 
 delay(5000);
 
-printf("Motor moving backwards")
+printf("Motor moving backwards");
 
 //Motor 1 Backward 
 digitalWrite(0, HIGH);
