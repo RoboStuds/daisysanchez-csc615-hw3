@@ -24,7 +24,7 @@ pinMode(4, OUTPUT);
 pinMode(5, OUTPUT);
 
 int softPwmCreate (int 0, int 10, int 100) ;
-int softPwmCreate (int 6, int 10, int 100) ;
+int softPwmCreate (int 6, int 30, int 100) ;
   
 int var = 0;
   
