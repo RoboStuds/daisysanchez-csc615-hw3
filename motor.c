@@ -23,8 +23,8 @@ pinMode(6, OUTPUT);
 pinMode(4, OUTPUT);
 pinMode(5, OUTPUT);
 
-int softPwmCreate (int 0, int 10, int 100) ;
-int softPwmCreate (int 6, int 30, int 100) ;
+softPwmCreate (0, 10, 100);
+softPwmCreate (6, 30, 100);
   
 int var = 0;
   
@@ -42,7 +42,9 @@ digitalWrite(5, LOW);
 
 delay(5000);
 
-printf("Motor moving backward")
+printf("Motor moving backward");
+
+
 
 //Motor 1 moves Backward 
 digitalWrite(0, HIGH);
