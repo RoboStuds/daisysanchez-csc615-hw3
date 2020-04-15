@@ -28,6 +28,8 @@ int var = 0;
   
   while(var < 2) {
 
+printf("Motor moving forward");
+
 //Motor 1 forward
 digitalWrite(0, HIGH);
 digitalWrite(2, HIGH);
@@ -40,6 +42,8 @@ digitalWrite(5, LOW);
 
 delay(5000);
 
+printf("Motor moving backwards")
+
 //Motor 1 Backward 
 digitalWrite(0, HIGH);
 digitalWrite(2, LOW);
@@ -49,6 +53,7 @@ digitalWrite(3, HIGH);
 digitalWrite(6, HIGH); 
 digitalWrite(4, LOW);
 digitalWrite(5, HIGH);
+ 
 
 var++;
 
