@@ -1,3 +1,21 @@
+/****************************************************************************************************************************************
+* 
+* Class: CSC-615-01 Spring 2020
+*
+* Name: Daisy Sanchez
+*
+* Student ID: 912740223 
+* 
+* Project: Assignment 3 – Motors & Motor Shield
+*
+* File: motor.c
+*
+* Description: For this program we will control two motors. We will use motor 1 and motor 2. 
+* Motor 1 has pin 0 to enable and pins 2 and 3 to control. Motor 2 has pin 6 to enable and pins 4 and 5 to control.
+* For this program both motors should move forward, backward, and stop. The motors should also have speed control (Pulse Width Modulation).
+*
+*****************************************************************************************************************************************/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <wiringPi.h>
